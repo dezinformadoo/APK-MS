@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; border:0; padding:0; font-size:10px;}
+
+
+#container{
+  float:left;
+  width:64rem;
+  height:113.6rem;
+  background:url(images/bg_start.png);
+  display:block;
+}
+
+
+#startMenu{
+	margin-top:4rem;
+  text-align:center;
+  width:100%;
+  height:25rem;
+  display:block;
+}
+
+#startMenu ul{
+  text-align:left;
+  width:100%;
+  height:25rem;
+  background:#;
+  display:block;
+}
+
+#startMenu ul li{
+  text-align:center;
+  width:24.6%;
+  height:2rem;
+  display:inline-block;
+  text-decoration:none;
+  background:#;
+  
+  font-size:2.4rem;
+  line-height:2rem;
+  font-family:Century Gothic, Arial, Helvetica;
+  color:#CCC;
+  letter-spacing:2px;
+  font-weight:bold;
+  
+  position:relative;
+   cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#startMenu ul li:hover{
+  text-align:center;
+  width:24.6%;
+  height:5rem;
+  display:inline-block;
+  text-decoration:none;
+  background:#FFB928;
+  font-size:2.4rem;
+  line-height:5rem;
+  font-family:Century Gothic, Arial, Helvetica;
+  color:#fff;
+  letter-spacing:2px;
+  font-weight:bold;
+}
+
+#startMenu ul li ul li{
+	width:24.6%;
+	height:5rem;
+	display:block;
+}
+#startMenu ul li ul li:hover{
+	width:24.6%;
+	height:5rem;
+	display:block;
+	background:#099;
+}
+
+#startMenu ul li ul li a{
+	font-family:Century Gothic, Arial, Helvetica;
+  color:#fff;
+  font-size:2.5rem;
+  letter-spacing:2px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+#startMenu ul li ul li a:hover{
+	display:block;
+	position:relative;
+	background:#68A4EC;
+}
+
+#startMenu ul li ul{
+	width:64rem;
+	height:5rem;
+	position:relative;
+	display:none;
+}
+
+#startMenu ul li:hover ul{
+	width:64rem;
+	height:5rem;
+	position:absolute;
+	display:block;
+}
+
+
+
+
+#startMensagem{
+  text-align:center;
+  width:100%;
+  height:50rem;
+  display:block;
+}
+
+#startMensagem h1{
+  text-align:center;
+  line-height:50rem;
+  font-size:2.5rem;
+  color:#cecece;
+  font-family:Century Gothic, Arial, Helvetica;
+  font-weight:lighter;
+}
+/* ========================================= PEDIDOS ================================================== */
+#pedidos{
+  text-align:center;
+  width:100%;
+  height:50rem;
+  display:block;
+}
+
+#pedidos h1{
+  text-align:right;
+  width:84%;
+  height:4rem;
+  background:#2AD1F1;
+  display:inline-block;
+  float:right;
+  padding-right:1.8rem;  
+  font-family:Century Gothic, Arial, Helvetica;
+  font-size:3rem;
+  line-height:4rem;
+  color:#fff;
+}
+
+#pedidos h2{
+	float:left;
+	padding-left:2rem;
+  text-align:left;
+  width:10%;
+  height:4rem;
+  background:#2AD1F1;
+  display:inline;
+  
+  font-family:Century Gothic, Arial, Helvetica;
+  font-size:3rem;
+  line-height:4rem;
+  color:#fff;
+}
+
+/* ==================================== FORMULARIO DE PEDIDOS ======================================== */
+fieldset{
+	width:95%;
+	height:30rem;
+	background:#666;
+	margin:2.5%;
+	
+	font-family:Century Gothic, Arial, Helvetica;
+}
+
+input{
+	margin-top:0.3rem;
+	float:left;
+	width:34%;
+	height:3rem;
+	display:inline-block;
+	
+	font-size:2rem;
+	color:#222;
+}
+
+label{
+	margin-top:0.3rem;
+	float:left;
+	width:15%;
+	height:3rem;
+	display:inline-block;
+	
+	font-size:2rem;
+	color:#222;
+	font-weight:bold;
+}
+
+form li{
+	display:block;
+	margin-top:0.6rem;
+	width:80%;
+	
+	 font-family:Century Gothic, Arial, Helvetica;
+  font-size:1.6rem;
+  font-weight:bold;
+  color:#222;
+  float:left;
+}
